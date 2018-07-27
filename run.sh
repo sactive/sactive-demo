@@ -21,8 +21,8 @@ set_config() {
 
 set_env_for_prod() {
   echo "Running Sbot service controller in production mode."
-  export SBOT_ROOT="/opt/microfocus/$PACKAGE_NAME"
-  export SBOT_LOG_DIR="/var/opt/microfocus/$PACKAGE_NAME/log"
+  export SBOT_ROOT="/opt/sactive/$PACKAGE_NAME"
+  export SBOT_LOG_DIR="/var/opt/sactive/$PACKAGE_NAME/log"
 
 
   # Set log level to info for production
