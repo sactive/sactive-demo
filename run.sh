@@ -44,18 +44,6 @@ set_env_for_dev() {
   export SBOT_LOG_LABEL='sbot service controller'
 }
 
-get_secret_from_vault() {
-  echo "Trying to get ${2} from vault ..."
-  vault_return=$(get_secret ${1})
-  if [[ $? == 0 ]]; then
-    export ${2}="$(echo -e ${vault_return#*PASS=})"
-    echo "Succeeded getting ${2} from vault ..."
-  else
-    echo "ERROR get ${2} from vault."
-    exit 1
-  fi
-}
-
 #################################
 # Start sbot service controller
 #################################
