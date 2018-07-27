@@ -56,9 +56,9 @@ get_secret_from_vault() {
   fi
 }
 
-##############################
-# Start Config Server
-##############################
+#################################
+# Start sbot service controller
+#################################
 start() {
   node $SBOT_ROOT/index.js
 }
