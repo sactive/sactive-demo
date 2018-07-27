@@ -1,5 +1,5 @@
 # sactive-demo
- Demo for building web with `sactive-web` and `sactive-di`.
+Demo for building web with `sactive-web` and `sactive-di`.
 
 ## Usage
 ```bash
