@@ -12,9 +12,9 @@ yarn install # or npm install
 
 ## API for testing
 
-- /sbot-svc/asynctest
-- /sbot-svc/version
-- /sbot-svc/deploy
-- /sbot-svc/undeploy
-- /sbot-svc/start
-- /sbot-svc/stop
+- /sbot-svc/api/asynctest
+- /sbot-svc/api/version
+- /sbot-svc/api/deploy
+- /sbot-svc/api/undeploy
+- /sbot-svc/api/start
+- /sbot-svc/api/stop
